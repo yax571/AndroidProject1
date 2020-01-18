@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/x86_64
+directory E:/Android/sdk/ndk/20.1.5948944/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot E:/Android/sdk/ndk/20.1.5948944/build//../sources/cxx-stl/llvm-libc++/include E:/Android/sdk/ndk/20.1.5948944/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include jni E:/Android/sdk/ndk/20.1.5948944/build//../sources/cxx-stl/llvm-libc++abi/include
