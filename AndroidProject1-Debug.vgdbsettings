@@ -9,10 +9,13 @@
     <AndroidProjectPath>$(ProjectDir)</AndroidProjectPath>
   </Project>
   <Build xsi:type="com.visualgdb.build.android">
-    <AndroidPlatform>android-28</AndroidPlatform>
+    <AndroidPlatform>android-22</AndroidPlatform>
+    <AdditionalBuildArguments />
+    <IntelliSenseEABI />
     <IsDebugConfiguration>true</IsDebugConfiguration>
     <DoNotEditAndroidManifest>false</DoNotEditAndroidManifest>
     <JNIOnlyBuild>false</JNIOnlyBuild>
+    <AdditionalANTArguments />
     <AdditionalDirectoriesToDeleteOnClean>bin;obj</AdditionalDirectoriesToDeleteOnClean>
     <DeleteANTFilesOnClean>false</DeleteANTFilesOnClean>
     <CustomActions />
@@ -37,10 +40,19 @@
   <UserDefinedVariables />
   <ImportedPropertySheets />
   <CodeSense>
-    <Enabled>Unknown</Enabled>
+    <Enabled>True</Enabled>
     <ExtraSettings>
       <HideErrorsInSystemHeaders>true</HideErrorsInSystemHeaders>
       <SupportLightweightReferenceAnalysis>true</SupportLightweightReferenceAnalysis>
+      <DiscoverySettings>
+        <Mode>Enabled</Mode>
+        <SearchInProjectDir>true</SearchInProjectDir>
+        <SearchInSourceDirs>true</SearchInSourceDirs>
+        <SearchInIncludeSubdirs>true</SearchInIncludeSubdirs>
+        <IgnoredDirs>
+          <string>E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\include\c++\v1</string>
+        </IgnoredDirs>
+      </DiscoverySettings>
       <CheckForClangFormatFiles>true</CheckForClangFormatFiles>
       <FormattingEngine xsi:nil="true" />
     </ExtraSettings>
@@ -69,7 +81,7 @@
       <ForceSingleThreadedMode>false</ForceSingleThreadedMode>
       <UseAppleExtensions>false</UseAppleExtensions>
       <CanAcceptCommandsWhileRunning>false</CanAcceptCommandsWhileRunning>
-      <MakeLogFile>false</MakeLogFile>
+      <MakeLogFile>true</MakeLogFile>
       <IgnoreModuleEventsWhileStepping>true</IgnoreModuleEventsWhileStepping>
       <UseRelativePathsOnly>false</UseRelativePathsOnly>
       <ExitAction>KillApp</ExitAction>
@@ -84,7 +96,7 @@
     </AdditionalGDBSettings>
     <LaunchGDBSettings xsi:type="GDBLaunchParametersAndroid" />
     <GenerateCtrlBreakInsteadOfCtrlC>false</GenerateCtrlBreakInsteadOfCtrlC>
-    <PreferredDevice />
+    <PreferredDevice>810EBMH4P2KH</PreferredDevice>
     <UseDefaultInstallDir>false</UseDefaultInstallDir>
     <RemotePort>5039</RemotePort>
     <LocalPort>5039</LocalPort>

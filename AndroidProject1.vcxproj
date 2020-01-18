@@ -46,8 +46,7 @@
     <ReferencePath />
     <LibraryPath />
     <NMakeOutput>$(ProjectDir)AndroidProject1-Debug.vgdbsettings</NMakeOutput>
-    <NMakeIncludeSearchPath>
-    </NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr;E:\Android\sdk\ndk\20.1.5948944\sources\cxx-stl;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\;E:\Android\sdk\ndk\20.1.5948944\sources\cxx-stl\llvm-libc++\include;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\8.0.7\include;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\include;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\include\aarch64-linux-android;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\include\c++\v1\experimental;E:\Android\sdk\ndk\20.1.5948944\toolchains\llvm\prebuilt\windows-x86_64\sysroot\usr\include\linux</NMakeIncludeSearchPath>
     <NMakePreprocessorDefinitions>__VisualGDB_CFG_Debug;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
